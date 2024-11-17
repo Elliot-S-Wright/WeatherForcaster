@@ -4,4 +4,4 @@ Uses Python and the machine learning library TensorFlow to create a neural netwo
 ![image](https://github.com/user-attachments/assets/5e58f082-293c-4a1d-8af5-bc58c9e87344)
 ![image](https://github.com/user-attachments/assets/943ebaf4-b6f5-4028-b9a9-b6c6724965fd)
 
-Root Mean Squared Error of the Model: 2.7 degrees Fahrenheit
+Root Mean Squared Error of the Model: 2.70 degrees Fahrenheit
