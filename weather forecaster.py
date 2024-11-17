@@ -74,7 +74,7 @@ def test_model(trained_weight, trained_bias, features, label):
   
   # Create a scatter plot for the test set
   x_axis = test_set["day of year"]
-  plt.scatter(x_axis, y_test, label='Actual')  # Plot actual points (use one feature for x-axis)
+  plt.scatter(x_axis, y_test, label='Actual', c='b')  # Plot actual points (use one feature for x-axis)
   plt.scatter(x_axis, predictions, label='Predicted', c='r', marker= 'x')  # Plot predictions
   
   # Render
@@ -101,11 +101,11 @@ def predict_temp(features, label):
   # Labels
   plt.xlabel("Day of Year")
   plt.ylabel("Mean Temp in Fahrenheit")
-  plt.title("Validation Set Predictions (2024)")
+  plt.title("Validation Set Predictions (2023)")
 
   #Plot predictions
   days_of_year = validation_set["day of year"]
-  plt.scatter(days_of_year, validation_set[label], label='Actual', color='blue')
+  plt.scatter(days_of_year, validation_set[label], label='Actual', c='b')
   plt.scatter(days_of_year, predicted_values, label='Predicted', c='r', marker='x')
     
   # Render
